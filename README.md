@@ -25,7 +25,7 @@ I do have included accounts I created for the purpose of testing the contract wi
 
 [https://github.com/anshik1998/Trace-Labs-Assignment/tree/master/backend](https://github.com/anshik1998/Trace-Labs-Assignment/tree/master/backend)
 
-under the names:  [originTrail.json](https://github.com/anshik1998/Trace-Labs-Assignment/blob/master/backend/originTrail.json), [originTrail2.json](https://github.com/anshik1998/Trace-Labs-Assignment/blob/master/backend/originTrail2.json), [originTrail3.json](https://github.com/anshik1998/Trace-Labs-Assignment/blob/master/backend/originTrail3.json)
+under the names:  [originTrail.json](https://github.com/anshik1998/Trace-Labs-Assignment/blob/master/backend/originTrail.json), [originTrail2.json](https://github.com/anshik1998/Trace-Labs-Assignment/blob/master/backend/originTrail2.json), [originTrail3.json](https://github.com/anshik1998/Trace-Labs-Assignment/blob/master/backend/originTrail3.json) with preloaded test eth.
 
 
 ## Playing with the numbers!
@@ -77,6 +77,14 @@ regularSavings = (((R1 + R2 + R3) * _amount) / _totalStaked);
 _reward = (regularSavings + bonusSavingsPerUser);
 ```
 
+## Getting Started!
+
+Fork and pull the repo from [here](https://github.com/anshik1998/Trace-Labs-Assignment/tree/master).
+
+The backend and frontend codebases are separated and can be run independently.
+
+The contract can be accessed from backend/contracts, deploy script from backend/scripts/deploy.py, and, test script from backend/tests/test.py
+
 ### ERC 20 tokens
 
 I’ve deployed two different tokens, i.e. one for staking and the other for reward. At the same time, the code can work with a single deployed ERC20 token for both staking and reward purposes.
@@ -99,6 +107,9 @@ To run the test script:
 
 ```solidity
 brownie test -k <function name>
+
+Or,
+brownie test tests/test.py
 ```
 
 ## Frontend
