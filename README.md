@@ -15,11 +15,11 @@ https://thehypedmonkey.notion.site/Origin-Trail-Assignment-efd9cd3c8b7746598e84f
 
 ## Deployed Smart Contract Addresses- On Rinkeby Testnet:
 
-Origin Trail TRAC Token: 0x6Ee24fBeadBE7F57D32a2F408C1Ca9Ae162b5fB3
+**Origin Trail TRAC Token:** 0x6Ee24fBeadBE7F57D32a2F408C1Ca9Ae162b5fB3
 
-Origin Trail Reward ATRAC Token: 0x85A465621EC715154d4442Fb71706E0f86c2FD8f
+**Origin Trail Reward ATRAC Token:** 0x85A465621EC715154d4442Fb71706E0f86c2FD8f
 
-Staking: 0xeAe5c266bA5368C58BF4682C062CE4a51550b43e
+**Staking:** 0xeAe5c266bA5368C58BF4682C062CE4a51550b43e
 
 I do have included accounts I created for the purpose of testing the contract within the code submission. The accounts can be found as JSON at:
 
