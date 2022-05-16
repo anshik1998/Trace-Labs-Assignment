@@ -64,7 +64,7 @@ import "OpenZeppelin/openzeppelin-contracts@4.6.0/contracts/access/Ownable.sol";
 import "OpenZeppelin/openzeppelin-contracts@4.6.0/contracts/security/Pausable.sol";
 import "OpenZeppelin/openzeppelin-contracts@4.6.0/contracts/security/ReentrancyGuard.sol";
 
-contract Staking is Ownable, Pausable {
+contract Staking is Ownable, Pausable, ReentrancyGuard {
     uint256 public R1; // Stage 1 Reward Distribution
     uint256 public R2; // Stage 2 Reward Distribution
     uint256 public R3; // Stage 3 Reward Distribution
