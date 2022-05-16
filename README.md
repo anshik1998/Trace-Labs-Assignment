@@ -29,6 +29,12 @@ under the names:  [originTrail.json](https://github.com/anshik1998/Trace-Labs-As
 
 **Password to import the accounts:** bank
 
+Import the account in brownie via following command:
+
+```
+brownie accounts import <id> <path>
+```
+
 
 ## Playing with the numbers!
 
