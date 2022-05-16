@@ -1,0 +1,7 @@
+{
+    "solidity.defaultCompiler": "localNodeModule",
+    "solidity.remappings": [
+        "@openzeppelin=/home/anshik1998/.brownie/packages/OpenZeppelin/openzeppelin-contracts@4.6.0",
+        "OpenZeppelin=/home/anshik1998/.brownie/packages/OpenZeppelin"
+    ]
+}
