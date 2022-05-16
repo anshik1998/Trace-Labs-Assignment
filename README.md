@@ -27,6 +27,8 @@ I do have included accounts I created for the purpose of testing the contract wi
 
 under the names:  [originTrail.json](https://github.com/anshik1998/Trace-Labs-Assignment/blob/master/backend/originTrail.json), [originTrail2.json](https://github.com/anshik1998/Trace-Labs-Assignment/blob/master/backend/originTrail2.json), [originTrail3.json](https://github.com/anshik1998/Trace-Labs-Assignment/blob/master/backend/originTrail3.json) with preloaded test eth.
 
+**Password to import the accounts:** bank
+
 
 ## Playing with the numbers!
 
